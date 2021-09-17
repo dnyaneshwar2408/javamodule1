@@ -8,7 +8,7 @@
 class Atm {
     public static void main(String[] args)
     {
-        float bal=120,with=1300;
+        float bal=120,with=100;
         System.out.println(" amount pooja has "+bal);
         System.out.println(" amount pooja wants to withdraw "+with);
         if (with%5==0 && with>0 && with<bal)
